@@ -1,7 +1,7 @@
-export class central {
-	constructor(nome, url ) {
-		this.nome = nome;
-		this.url= url;
-	
-	}
+export class Central {
+    constructor(name, endereco, telefone) {
+        this.name = name;
+        this.endereco = endereco;
+        this.telefone = telefone;
+    }
 }
